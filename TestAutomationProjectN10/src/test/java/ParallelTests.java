@@ -7,7 +7,7 @@ public class ParallelTests {
         System.out.println("Before test-method. Thread id is: " + id);
     }
 
-    @Test
+    @Test(groups = "testGroupA")
     public void testMethodsOne() {
         long id = Thread.currentThread().getId();
         System.out.println("Simple test-method One. Thread id is: " + id);

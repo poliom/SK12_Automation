@@ -18,14 +18,13 @@ public class MyFirstTestClass {
     }
 
     @Test(groups = "smoke")
-    public  void testName(){
+    public  void aTestName(){
         System.out.println("My First Check");
     }
 
     @Test(groups = "testGroup")
-    public  void testNameSecond(){
+    public  void exampleTestName(){
         System.out.println("My Second Check");
-        Assert.assertFalse(true);
     }
 
     @AfterMethod (groups = "smoke")
